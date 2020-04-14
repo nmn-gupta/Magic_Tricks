@@ -57,14 +57,14 @@ def guess_Birth_date(arr1, arr2, arr3, arr4, arr5):
     print("Okay, so your birth date is :", s)
 
 
-'''def guess_Age():
+def guess_Age():
     print("Tell me the reminders of dividing your age by 3, 5, 7:")
     rem1=int(input())
     rem2 = int(input())
     rem3 = int(input())
     res=(rem1*70+rem2*21+rem3*15)%105
     print("Okay, so your age is :", res)
-'''
+
 
 if choice == 1:
     guess_Birth_date(arr1, arr2, arr3, arr4, arr5)
