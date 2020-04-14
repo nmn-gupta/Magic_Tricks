@@ -65,10 +65,10 @@ def guess_Birth_date(arr1, arr2, arr3, arr4, arr5):
     res=(rem1*70+rem2*21+rem3*15)%105
     print("Okay, so your age is :", res)
 '''
-'''
+
 if choice == 1:
     guess_Birth_date(arr1, arr2, arr3, arr4, arr5)
-else:
+'''else:
     guess_Age()
 
 
